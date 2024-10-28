@@ -1,0 +1,82 @@
+
+Sample Question Paper
+=======================
+
+Q.1>
+Write a C++ program to print all natural numbers in reverse (from n to 1).
+but with one constraint i,e if number is multiple of 5 then ignore it.
+example:
+n=12
+output: 12 11 9 8 7 6 4 3 2 1
+
+Q.2>
+WAP to create a class Time having data member 
+ hour and minutes,
+ member function.
+ 1)constructor
+ 2)use operator overloading (+) to add 2 time
+   example:
+        1st object value : 3 hours 50 mins
+        2nd object value : 2 hours 20 mins
+        output           : 6 hours 10 mins       
+ 3)convert_into_minute()  
+    example:  2 hours 20 mins  -> 140 mins
+        
+Q.3>
+Write the definition of a class METROPOLIS in C++ with following description : 
+4   Private Members   – 
+MCode  //Data member for Code (an integer)    
+MName  //Data member for Name (a string)   
+MPop  //Data member for Population (a int)   
+Area  //Data member for Area Coverage (a double)   
+PopDens //Data member for Population Density 
+CalDen() //A member function to calculate (PopDens = MPop/Area) 
+
+Public Members   – Enter() 
+A function to allow user to enter values of 
+Mcode,MName,MPop,Area and call CalDen() function  
+ViewALL() A function to display all the data members 
+also display a message “Highly Populated Area”  if the Density is more than 12000 
+
+Q.4>
+WritethedefinitionofafunctionFixPay(floatPay[], intN) inC++,whichshouldmodifyeachelement
+ of thearrayPayhavingNelements,asper thefollowing              
+rules: Existing Value of Pay Pay to be changed to If less than 100000 Add 25% in the existing value 
+If >=100000 and <20000 Add 20% in the existing value 
+If >=200000 Add 15% in the existing value 
+
+
+                                          OR
+
+Write a user-defined function AddEnd4(int A[],int Size) in C++ to
+find and display the sum of all the values, which are ending with 4 (i.e., unit
+place is 4).
+For example if the content of array is:
+int ar[4]={24 ,16 ,14,10};
+
+output:48
+
+
+Q.5>
+WAP to draw a pattern 
+
+*******
+*  
+*  
+*******
+*  
+*
+*******
+
+
+Q.6>
+WAP to demonstrate a exception handling with the help of array 
+Arr of size 5 , 
+int Arr[5]={23,44,5,6,7};
+if user want to display  a particular number with the help of indexing
+he can ,but if we enter index which is greater then the highest index ,
+thrown an exception.
+
+Q.7>WAP to create a function in which u have to pass a string parameter if
+string is palindrome return true otherwise return false 
+
